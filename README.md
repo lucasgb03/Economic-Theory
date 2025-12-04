@@ -27,7 +27,7 @@ This largely proves the equation and theory above: ΔlnP = ΔlnM + ΔlnV - ΔlnY
 - If money supply grows by 1%, velocity of money grows by 1%, and real output grows by 1%, inflation would be predicted as 1.099% + 1.171% − 1.213% = 1.057%. This almost perfectly balances the equation, and shows that US empirical economic data largely supports the equation derived from MV = PY
 
 ## Chart and Application
-I used R's predict function to predict the change in P, or inflation, for each year since 1959 based on the growth rates of M, Y, and V. The results are can be seen in the graph labeled "PredictedInflation" in this repository
+I used R's predict function to predict the change in P, or inflation, for each year since 1959 based on the growth rates of M, Y, and V. The results are can be seen in the graph labeled "Inflationpredicted" in this repository
 
 I also used the predict function to forecast inflation for 2025 based on the growth rates of M, Y, and V from 2024 to 2025. This yielded a predicted inflation of 2.46%, which is lower than the 3% that the market currently expects. This means that something outside of the cardinal equation is affecting prices, such as the recent tariffs enacted by the Trump administration. The higher market-implied inflation rate may reflect cost-push pressures— the recent tariff increases —which raise prices independently of money supply, velocity, or real output.
   
