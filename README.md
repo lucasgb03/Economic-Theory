@@ -13,7 +13,9 @@ I derived a more intuitve equation from MV = PY using the following steps
 Per this equation, the growth rate in the price (inflation) should be equal to the growth rate in money supply, plus the growth rate in velocity of money, minus the growth rate of real output.
   
 ## Data
-This dataset contains annual observations of CPI, Money supply (M2), Real GDP, and Nominal GDP yearly since 1959. To use my new equation, I had to get the data in log differece form. Note that the velocity of money formula is nominal GDP / Money supply. Real GDP is used as the output (Y) in this study. This created the following variables: 
+This dataset contains annual observations of CPI, Money supply (M2), Real GDP, and Nominal GDP yearly since 1959, all pulled from the Federal Reserve Economic Data, linked herehttps://fred.stlouisfed.org/. 
+
+To use my new equation, I had to get the data in log differece form. Note that the velocity of money formula is nominal GDP / Money supply. Real GDP is used as the output (Y) in this study. This created the following variables: 
 - Dependent variable: inflation (P)
 - Independent variables: output_growth (Y), money_growth (M), and velocity_growth (V).
 
